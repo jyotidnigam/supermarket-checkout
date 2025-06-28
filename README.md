@@ -16,6 +16,9 @@ npm install
 cd supermarket-checkout
 docker-compose up --build
 
+## Seed Data
+Data seeding runs automatically on startup.
+
 ## Run the Application
 
 docker-compose up --build
