@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.6",
+    "typescript": "^5.8.3"
+  }
+}

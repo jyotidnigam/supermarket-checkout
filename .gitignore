@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules/
+dist/
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+
+# IDE files
+.vscode/
+.idea/
